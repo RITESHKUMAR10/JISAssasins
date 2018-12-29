@@ -1,0 +1,27 @@
+class Power:
+    def __init__(self):
+        self.x=int(input("enter the base number:"))
+        self.y=int(input("enter the first power number:"))
+        self.z=int(input("enter the second power number:"))
+
+    def calPower(self):
+        self.x=(self.x**self.y)*(self.x**self.z)
+
+    def printPower(self):
+        print("The result is:",self.x)
+
+power=Power()
+power.calPower()
+power.printPower()
+
+
+#output:
+
+
+C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques15.py"
+enter the base number:2
+enter the first power number:3
+enter the second power number:1
+The result is: 16
+
+Process finished with exit code 0
