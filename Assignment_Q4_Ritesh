@@ -1,0 +1,31 @@
+class Sorting:
+    def takeInputInt(self):
+        n = int(input("Enter the number of number you want to insert:"))
+        j = []
+        for i in range(0, n):
+            num = int(input("enter the number :\n"))
+            j.append(num)
+        return j
+
+    def sortInput(self,k):
+        k.sort()
+        print(" The sorted list for the given input is: ", k)
+sorting = Sorting()
+num=sorting.takeInputInt()
+sorting.sortInput(num)
+
+
+#output:
+C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques4.py"
+Enter the number of number you want to insert:4
+enter the number :
+7
+enter the number :
+2
+enter the number :
+6
+enter the number :
+8
+ The sorted list for the given input is:  [2, 6, 7, 8]
+
+Process finished with exit code 0
