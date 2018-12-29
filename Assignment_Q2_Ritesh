@@ -1,0 +1,18 @@
+class Digit:
+    def takeInputInt(self):
+        n = int(input("Enter the number of number that will be checked right now:"))
+        j = []
+        for i in range(0, n):
+            num = int(input("enter the number \n"))
+            j.append(num)
+        return j
+
+    def checkMinMax(self, k):
+        print("the max value  is ", max(k))
+        print(" the min value is ", min(k))
+
+
+
+rk = Digit()
+num = rk.takeInputInt()
+rk.checkMinMax(num)
