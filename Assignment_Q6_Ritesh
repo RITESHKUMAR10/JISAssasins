@@ -1,0 +1,17 @@
+names =input("Enter your name AS YOU LIKE:")
+words = names.split()
+words.sort()
+print("The sorted words are:")
+for word in words:
+   print(word)
+   
+   #output:
+   #
+   C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques6.py"
+Enter your name AS YOU LIKE:Ritesh Abhishek Susheel
+The sorted words are:
+Abhishek
+Ritesh
+Susheel
+
+Process finished with exit code 0
