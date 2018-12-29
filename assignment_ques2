@@ -1,0 +1,4 @@
+msg="Dog bark"
+words=msg.split(" ")
+words.reverse()
+print(' '.join(words))
