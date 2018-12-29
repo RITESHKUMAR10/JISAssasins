@@ -1,0 +1,20 @@
+num1 = input("enter the value of num1:")
+num2 = input("enterrhe value of num2:")
+
+temp = num1
+num1 = num2
+num2 = temp
+
+print('num1 after swapping: {}'.format(num1))
+print('num2 after swapping: {}'.format(num2))
+
+
+#output:
+#C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques8.py"
+enter the value of num1:8
+enterrhe value of num2:9
+num1 after swapping: 9
+num2 after swapping: 8
+
+Process finished with exit code 0
+
