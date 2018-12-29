@@ -1,0 +1,20 @@
+degree = lambda l : l.replace("a","*").upper()
+
+print(degree("Ritesh become a PSU officer in 2020 "))
+print(degree)
+
+degree = lambda l : l.replace("a","*").lower()
+
+print(degree("Ritesh become a PSU in 2020"))
+print(degree)
+
+
+
+#output:
+#C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques20.py"
+RITESH BECOME * PSU OFFICER IN 2020 
+<function <lambda> at 0x02F38A98>
+ritesh become * psu in 2020
+<function <lambda> at 0x02F38A50>
+
+Process finished with exit code 0
