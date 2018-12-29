@@ -1,0 +1,21 @@
+salary=int(input("Enter the salary:"))
+if salary >= 5000:
+    hra= salary*(15/100)
+    print("hra" , salary*(15/100))
+    da= salary*(150/100)
+    print("da" , salary*(150/100))
+else:
+    hra= salary*(10/100)
+    print("hra" , salary*(10/100))
+    da= salary*(110/100)
+    print("da" , salary*(110/100))
+print("gross salary" , da+hra+salary)
+
+#output:
+C:\Users\ASUS\PycharmProjects\App\venv\Scripts\python.exe "C:/Users/ASUS/PycharmProjects/App/Ritesh is here/ques26.py"
+Enter the salary:1452
+hra 145.20000000000002
+da 1597.2
+gross salary 3194.4
+
+Process finished with exit code 0
