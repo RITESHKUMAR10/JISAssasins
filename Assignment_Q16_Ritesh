@@ -1,0 +1,8 @@
+fun= lambda  a :ord(a)
+num=input("Enter character: ")
+result = fun(num)
+print("ASCII value is:{}".format(result))
+
+x= result+1
+y= result-1
+print("Next value is : {} or Previous value is : {}".format(x,y))
